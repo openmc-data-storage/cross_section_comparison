@@ -1,2 +1,35 @@
-# cross_section_comparison
-Compare nuclear interaction cross sections for different libraries
+# Cross Section Comparison
+
+This repository shows how to make a comparison of a specific reaction for multiple cross section libraries
+
+## Install
+
+First install OpenMC
+
+Then install the dependencies
+
+```bash
+pip install openmc_data
+pip install plotly
+```
+
+The clone the repository and change into the repository directory
+
+```bash
+git clone https://github.com/openmc-data-storage/cross_section_comparison.git
+cd cross_section_comparison
+```
+
+## Produce a comparison plot
+
+Run the download data script.
+
+```bash
+bash download_data.sh
+```
+
+Run the plotting script
+
+```bash
+python plot_reaction.py
+```
