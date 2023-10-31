@@ -2,6 +2,10 @@
 
 This repository shows how to make a comparison of a specific reaction for multiple cross section libraries
 
+## ✨ Try it in your browser ✨
+
+👉 [https://openmc-data-storage.github.io/cross_section_comparison/](https://openmc-data-storage.github.io/cross_section_comparison/)
+
 ## Install
 
 First install OpenMC
