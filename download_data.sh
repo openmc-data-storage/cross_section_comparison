@@ -8,6 +8,7 @@ convert_fendl --release 3.1a
 convert_fendl --release 3.0
 convert_fendl --release 2.1
 
+# jeff ace files have many temperatures available, limiting to just 293k for this example
 convert_jeff32 --temperatures 293
 convert_jeff33 --temperatures 293
 
